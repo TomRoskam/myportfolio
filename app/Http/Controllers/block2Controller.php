@@ -3,8 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\blok1;
-use App\blok2;
+use App\Blok1;
+use App\Blok2;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
 
@@ -12,22 +12,22 @@ class block2Controller extends Controller
 {
     public function index()
     {
-        $block1 = \App\blok1::all();
-        $block2 = \App\blok2::all();
+        $block1 = \App\Blok1::all();
+        $block2 = \App\Blok2::all();
         return view('block2.index', compact('block1', 'block2'));
     }
 
     public function create()
     {
-            $block1 = \App\blok1::all();
-            $block2 = \App\blok2::all();
+            $block1 = \App\Blok1::all();
+            $block2 = \App\Blok2::all();
             return view('block2.create', compact('block1', 'block2'));
     }
 
     public function edit($id)
     {
-            $block1 = \App\blok1::all();
-            $block2 = \App\blok2::findOrFail($id);
+            $block1 = \App\Blok1::all();
+            $block2 = \App\Blok2::findOrFail($id);
             return view('block2.edit', compact('block1', 'block2'));
     }
 
