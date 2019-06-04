@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "C:\\xampp\\htdocs\\basicwebsite"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "C:\\Users\\Tom\\Pictures\\images"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}
