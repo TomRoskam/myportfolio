@@ -10508,7 +10508,7 @@ input[type=number]::-webkit-outer-spin-button {
   bottom: 0;
   left: 0;
   background-size: cover;
-  background-image: url("/images/zee.jpg");
+  background-image: url("/images/blackSand.jpg");
   box-shadow: inset -5px -5px 128px 15px rgba(0, 0, 0, 0.75);
 }
 
@@ -10523,7 +10523,7 @@ input[type=number]::-webkit-outer-spin-button {
           transform: translateZ(-1px) scale(2);
   background-size: 100%;
   z-index: -1;
-  background-image: url("/images/zee.jpg");
+  background-image: url("/images/blackSand.jpg");
   box-shadow: inset -5px -5px 128px 15px rgba(0, 0, 0, 0.75);
 }
 
@@ -10790,7 +10790,7 @@ ul {
   bottom: 0;
   left: 0;
   background-size: cover;
-  background-image: url("/images/zee.jpg");
+  background-image: url("/images/blackSand.jpg");
   box-shadow: inset -5px -5px 128px 15px rgba(0, 0, 0, 0.75);
   padding: 150px 0px 0px 0px;
 }
