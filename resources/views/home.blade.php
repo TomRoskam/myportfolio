@@ -9,6 +9,6 @@
     </div>
 
     <div class="homeTitle">
-        <p>PORTFOLIO</p>
+        <p>PORTFOLIO</p><!--title-->
     </div>
 </div> 
