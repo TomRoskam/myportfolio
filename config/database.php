@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'mysql'),
+    'default' => env('DB_CONNECTION', 'pgsql'),
 
     /*
     |--------------------------------------------------------------------------
@@ -58,6 +58,7 @@ return [
 
         'pgsql' => [
             'driver' => 'pgsql',
+            'url' => env('postgres://niccmoxntuezwe:e70a58b11a23fbf4a0ff9f4fb1e81fc26e4aea08776cff8911d55559bd49a593@ec2-54-235-86-101.compute-1.amazonaws.com:5432/d45rsbnsvm3sq5'),
             'host' => env('DB_HOST', '127.0.0.1'),
             'port' => env('DB_PORT', '5432'),
             'database' => env('DB_DATABASE', 'forge'),
