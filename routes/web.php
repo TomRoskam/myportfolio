@@ -24,3 +24,6 @@ Route::get('/interests', 'pagesController@interests');
 Route::resource('/block1', 'block1Controller');
 
 Route::resource('/block2', 'block2Controller');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
